@@ -14,10 +14,10 @@ For your object or array, just add `.contains()` at the end to determine if they
 
 ### Object
 
-   {"elm1": "one", "elm2": "two"}.contains("elm1") // true 
-   {"elm1": "one", "elm2": "two"}.contains("elm2") // true 
-   {"elm1": "one", "elm2": "two"}.contains("one")  // false
-   {"elm1": "one", "elm2": "two"}.contains("ELM2") // false
+    {"elm1": "one", "elm2": "two"}.contains("elm1") // true 
+    {"elm1": "one", "elm2": "two"}.contains("elm2") // true 
+    {"elm1": "one", "elm2": "two"}.contains("one")  // false
+    {"elm1": "one", "elm2": "two"}.contains("ELM2") // false
 
 ### Array
 
