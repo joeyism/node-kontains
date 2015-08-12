@@ -18,4 +18,14 @@ describe("kontains", function(){
             expect(obj.contains("ELM2")).to.be.false;
         });
     });
+
+    describe("array", function(){
+        it("should confirm or deny whether an object contains a specific element", function(){
+            var arr = ["one", "two", "three"];
+
+            expect(arr.contains("one")).to.be.true;
+            expect(arr.contains("two")).to.be.true;
+            expect(arr.contains("ONE")).to.be.false;
+        }); 
+    });
 });
