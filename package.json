@@ -1,0 +1,37 @@
+{
+  "name": "kontains",
+  "version": "1.0.0",
+  "description": "A tool to determine whether an object or an array contains an element",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha",
+    "coveralls": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeyism/node-kontains.git"
+  },
+  "keywords": [
+    "contain",
+    "contains",
+    "array",
+    "object",
+    "has",
+    "every",
+    "includes"
+  ],
+  "author": "Joey Sham <sham.joey@gmail.com> (http://www.joeyism.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joeyism/node-kontains/issues"
+  },
+  "homepage": "https://github.com/joeyism/node-kontains#readme",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "istanbul": "^0.3.17",
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "coveralls": "^2.11.3"
+  }
+}
