@@ -6,8 +6,13 @@
 A small tool to let you know if an object or an array contains an element
 
 ## Installation
+To install in node, simply run
 
     > npm install --save kontains
+
+To use in browser, simply add
+
+    <script src="https://raw.githubusercontent.com/joeyism/node-kontains/master/index.js"></script>
 
 ## Usage
 For your object or array, just add `.contains()` at the end to determine if they contain such element. It is important to note that the searching is also case sensitive.
